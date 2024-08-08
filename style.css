@@ -1,10 +1,11 @@
-*{
+body{
     margin: 0;
     padding: 0;
 }
 .main{
     display: flex;
 }
+
 .side-container{
     display: flex;
     flex-direction: column;
@@ -16,8 +17,23 @@
     width: 35vw;
 }
 
+footer >  p{
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px rgb(73, 72, 72);
+}
+
+footer > p > a{
+    color: white;
+}
+
+.main-content{
+    width: 65%;
+}
+
+
 .side-container > footer{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .logo-section{
@@ -33,4 +49,30 @@
 .logo-section > h1{
     font-size: 7rem;
     color: white;
+}
+
+.registration{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.inputs > div{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 1.5rem;
+}
+
+input{
+    width: 300px;
+    font-size: 2rem;
 }
