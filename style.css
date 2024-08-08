@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -47,7 +52,8 @@ footer > p > a{
 }
 
 .logo-section > h1{
-    font-size: 7rem;
+    font-family: Norse-Bold;
+    font-size: 9rem;
     color: white;
 }
 
