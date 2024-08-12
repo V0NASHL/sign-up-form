@@ -112,3 +112,16 @@ input{
     border-style: none;
     border-radius: 20px;
 }
+
+.create-account:hover{
+    color: white;
+    background-color: black;
+}
+
+.log-in{
+    padding-left: 10px;
+}
+
+.log-in > a{
+    color: rgb(105, 99, 52);
+}
